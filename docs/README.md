@@ -1,41 +1,48 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-Demais diretrizes constam no Moodle.
-
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)(Turma)_(Grupo)_(NomeDoProjeto)_(Entrega_02)*. !!** 
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2026.1(T01)_G1_JogoSustentabilidade_Entrega_02*. !!**  
- 
- (Apague esses comentários)
-
-# Nome do Projeto
+# Quebrando A Cabeça
 
 **Código da Disciplina**: FGA0208<br>
-**Número do Grupo**: XX<br>
+**Número do Grupo**: 06<br>
 **Entrega**: 02<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| Matrícula | Aluno | GitHub |
+| -- | -- | -- |
+| 23/2001371 | Caio Rocha de Oliveira | [Dexmachi](https://github.com/Dexmachi) |
+| 23/2014404 | Carlos Henrique Brasil de Souza | [Carlos-UCH](https://github.com/Carlos-UCH) |
+| 23/1011275 | Eduardo de Almeida Morais | [Edumorais08](https://github.com/Edumorais08) |
+| 20/0037170 | Fábio Alessandro Torres Santos | [fabioaletorres](https://github.com/fabioaletorres) |
+| 18/0053299 | João Eduardo Pereira Rabelo | [JoaoEduardoP](https://github.com/JoaoEduardoP) |
+| 23/1011927 | João Felipe Oliveira Alves e Silva | [MrBolt2005](https://github.com/MrBolt2005) |
+| 23/2014100 | Marcos Vinícius Gündel da Silva | [MarcosViniciusG](https://github.com/MarcosViniciusG) |
+| 23/2014146 | Pedro Teixeira Moriel Sanchez | [PedroDev-sketch](https://github.com/PedroDev-sketch) |
+| 23/2014093 | Lucas Machado Peres Ricarte | [Lucas-Ricarte](https://github.com/Lucas-Ricarte) | 
+| 23/2014576 | Yogi Nam de Souza Barbosa | [oyogi](https://github.com/oyogi) |
 
-## Sobre 
-Contextualize, usando referências, links, e outros materiais como fontes.
+## Sobre
+
+O **Grupo G6** visa desenvolver o software **Quebrando A Cabeça**, cuja finalidade principal é gerar imagens com aspecto visual de quebra-cabeça a partir de fotos fornecidas pelo usuário. Como escopo estendido, o sistema preverá um ambiente interativo para a montagem virtual dos quebra-cabeças.
+
+O sistema é construído como requisito de avaliação da disciplina **Arquitetura & Desenho de Software (FGA0208)**, ofertada no semestre **2026.1** pela Faculdade de Ciências e Tecnologias (FCTE) da Universidade de Brasília (UnB), sob supervisão da Prof.ª Milene Serrano.
+  
+Repositório Oficial do Projeto mantido na Organização UnBArqDsw2026-1-Turma01 no [GitHub](https://github.com/UnBArqDsw2026-1-Turma01/2026.1-T01_G6_QuebrandoACabeca_Entrega_02).
 
 ## Screenshots da Segunda Entrega
-Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
+
+[[slider]]()
 
 ## Há algo a ser executado?
 
 ( ) SIM
 
-( ) NÃO
+(X) NÃO
 
 Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados na execução.
 
 ## Informações Complementares 
 Quaisquer outras informações adicionais podem ser descritas nessa seção.
+
+## Histórico de versões
+
+| Data | Alterações | Autores |
+| -- | -- | -- |
+| 14/04 | Inserir o template. | Yogi |
