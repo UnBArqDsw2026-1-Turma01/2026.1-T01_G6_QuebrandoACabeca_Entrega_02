@@ -1,0 +1,16 @@
+stateDiagram-v2
+    [*] --> AguardandoEvento
+    
+    AguardandoEvento --> AvaliandoEstatisticas : puzzleConcluido() ou partidaVencida()
+    
+    state AvaliandoEstatisticas {
+        [*] --> IncrementandoContadores
+        IncrementandoContadores --> VerificandoMetas : atualizar(vitorias, qtdPuzzles)
+        
+        VerificandoMetas --> DesbloqueandoConquista : [valorAtual >= metaConquista]
+        DesbloqueandoConquista --> VerificandoMetas : registrarConquista()
+        
+        VerificandoMetas --> FimAvaliacao : [nenhumaMetaAtingida]
+    }
+    
+    AvaliandoEstatisticas --> AguardandoEvento : concluirProcessamento()

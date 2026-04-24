@@ -1,0 +1,20 @@
+stateDiagram-v2
+    [*] --> CriandoSala
+    CriandoSala --> AguardandoOponente : selecionarPuzzle() / gerarConviteOuSalaAberta()
+    
+    AguardandoOponente --> Sincronizando : oponenteConectou()
+    AguardandoOponente --> Cancelada : cancelar()
+    
+    Sincronizando --> DisputaAtiva : contagemRegressiva()
+    
+    state DisputaAtiva {
+        [*] --> MontagemParalela
+        MontagemParalela --> ValidandoProgresso : jogadorEnviaAtualizacao()
+        ValidandoProgresso --> MontagemParalela : [puzzleIncompleto]
+    }
+    
+    DisputaAtiva --> ProcessandoVitoria : [umJogadorCompletou] / notificarDerrotado()
+    
+    ProcessandoVitoria --> Finalizada : atribuirVitoria() / calcularNovaPosicaoRanking()
+    Finalizada --> [*]
+    Cancelada --> [*]

@@ -1,0 +1,22 @@
+stateDiagram-v2
+    [*] --> Configuracao
+    
+    Configuracao --> Preparacao : definirParametros(numPecas, tipoEncaixe, comTempo)
+    Preparacao --> EmAndamento : fatiarImagem() / gerarInstanciasPecas()
+    
+    state EmAndamento {
+        [*] --> Ocioso
+        Ocioso --> MovendoPeca : cliqueSegurar(peca)
+        MovendoPeca --> AvaliandoPosicao : soltarClique()
+        AvaliandoPosicao --> Encaixada : [coordenadasCorretas] / travarPeca()
+        AvaliandoPosicao --> Ocioso : [coordenadasIncorretas]
+        
+        Ocioso --> Rotacionando : acaoGirar(peca) [rotacaoHabilitada]
+        Rotacionando --> Ocioso : atualizarAngulo()
+    }
+    
+    EmAndamento --> Pausado : pausar() / salvarProgressoGaleria()
+    Pausado --> EmAndamento : retomar()
+    
+    EmAndamento --> Concluido : [todasPecasEncaixadas == true] / pararCronometro()
+    Concluido --> [*]

@@ -1,5 +1,3 @@
-# 2.2. Módulo Notação UML – Modelagem Dinâmica
-
 <!--Foco_2: Modelagem UML Dinâmica.
 
 Entrega Mínima: 1 Modelo Dinâmico (ESCOPO: Diagrama de Sequência; Diagrama de Atividades; Diagrama de Comunicação/Colaboração ou Diagrama de Estados).
@@ -89,7 +87,7 @@ A tabela a seguir explicita esse rastro:
 | Data | Alterações | Autores |
 |:----:|------------|:-------:|
 | 14/04/2026 | Inserir o template. | Yogi |
-| 23/04/2026 | Adicionando imagens dos diagramas de sequência. | Lucas Machado |
+| 23/04/2026 | Adicionando imagens dos diagramas de sequência. | Lucas, Fábio Torres, Eduardo, Caio, João Felipe |
 | 24/04/2026 | Preenchimento da seção de Rastreabilidade & Elos com Outros Artefatos. | Marcos Vínicius |
 | 24/04/2026 | Adicionando metodologia, justificativa e algumas referências. | João Felipe |
 

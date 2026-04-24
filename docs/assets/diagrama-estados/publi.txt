@@ -1,0 +1,27 @@
+stateDiagram-v2
+    [*] --> Uploading : enviarImagem()
+    Uploading --> NaGaleria : [formatoValido] / salvarStorage()
+    
+    state NaGaleria {
+        [*] --> Disponivel
+        Disponivel --> Disponivel : favoritar() / atualizarContadorFavoritos()
+    }
+    
+    NaGaleria --> RascunhoPublicacao : criarPost()
+    
+    state RascunhoPublicacao {
+        [*] --> EditandoTexto
+        EditandoTexto --> AnexandoMidia : selecionarImagemOuPuzzle()
+        AnexandoMidia --> EditandoTexto
+    }
+    
+    RascunhoPublicacao --> Publicada : confirmar() / salvarBanco()
+    
+    state Publicada {
+        [*] --> VisivelNoFeed
+        VisivelNoFeed --> SendoEditada : editarPost()
+        SendoEditada --> VisivelNoFeed : salvarAlteracoes()
+    }
+    
+    Publicada --> Arquivada : excluir()
+    Arquivada --> [*]
