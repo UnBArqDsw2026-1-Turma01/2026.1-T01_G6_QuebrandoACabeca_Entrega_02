@@ -36,6 +36,13 @@ A Wiki ou GitPages do Projeto deve conter um tópico dedicado ao Módulo Modelag
     <figcaption>Diagrama de Estados. Autores: Yogi, </figcaption>
 </p>
 
+### Estados Processamento de Imagem 
+
+<p align="center">
+    <img src="assets/diagrama-estados/processaimagem.png" width="50%">
+    <figcaption>Diagrama de Estados. Autores: Yogi, Carlos </figcaption>
+</p>
+
 ## 2. Metodologia
 <!--Como fizemos, quando, tem ata? cita aqui, cita referências, pode ser professores etc..-->
 
