@@ -206,10 +206,10 @@ body {
 
 .team-table thead tr {
   background: var(--ink);
-  color: white;
 }
 
 .team-table thead th {
+  color: white;
   padding: 0.75rem 1rem;
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.65rem;
@@ -474,7 +474,7 @@ body {
     <div class="section-label">§ 03</div>
     <h2 class="section-title">Screenshots da Segunda Entrega</h2>
     <div class="screenshots-placeholder">
-      [ Galeria de capturas de tela — inserir slider aqui ]
+        [[slider]](assets/diagramaClasses.jpg|assets/DiagramaSequencia/DiagramaSequencia1.jpeg|assets/DiagramaSequencia/DiagramaSequencia2.jpeg|assets/DiagramaSequencia/DiagramaSequencia3.jpeg|assets/DiagramaSequencia/DiagramaSequencia4.jpeg|assets/DiagramaSequencia/DiagramaSequencia5.jpeg|assets/DiagramaSequencia/DiagramaSequencia6.jpeg|assets/diagramaCasodeUso.png)
     </div>
   </div>
   <!-- EXECUÇÃO -->
@@ -521,6 +521,13 @@ body {
           <td>23/04/2026</td>
           <td>Editar o template da página.</td>
           <td>João Eduardo</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>23/04/2026</td>
+          <td>Inserir screenshots.</td>
+          <td>Yogi</td>
         </tr>
       </tbody>
     </table>
