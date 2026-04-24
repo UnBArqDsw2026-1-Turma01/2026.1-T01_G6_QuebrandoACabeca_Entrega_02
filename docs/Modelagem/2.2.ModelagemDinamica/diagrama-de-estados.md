@@ -36,6 +36,13 @@ A Wiki ou GitPages do Projeto deve conter um tópico dedicado ao Módulo Modelag
     <figcaption>Diagrama de Estados. Autores: Yogi, Carlos, Pedro  </figcaption>
 </p>
 
+### Estados Processamento de Imagem 
+
+<p align="center">
+    <img src="assets/diagrama-estados/processaimagem.png" width="50%">
+    <figcaption>Diagrama de Estados. Autores: Yogi, Carlos </figcaption>
+</p>
+
 ## 2. Metodologia
 <!--Como fizemos, quando, tem ata? cita aqui, cita referências, pode ser professores etc..-->
 Realizamos discussões assíncronas pelo Whatsapp [Discussão](Discussoes/estados.md) e fizemos uma reunião com parte do grupo [Ata](AtasReunioes/Ata3.md). A modelagem foi conduzida com foco no ciclo de vida das entidades de maior complexidade identificadas previamente no Diagrama de Classes. Aplicamos uma análise orientada a eventos, mapeando transições a partir das interações do usuário com a interface e das regras de negócio de retaguarda. Os fluxos foram extraídos dos requisitos de jogabilidade, sincronização multiplayer e interações sociais, definindo os estados, condições de guarda e os gatilhos (triggers) que alteram o comportamento do sistema. Usamos como base as descrições em [uml-diagrams](https://www.uml-diagrams.org/state-machine-diagrams.html)

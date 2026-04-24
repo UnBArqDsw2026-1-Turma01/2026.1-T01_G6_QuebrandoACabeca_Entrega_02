@@ -1,0 +1,22 @@
+stateDiagram
+  direction TB
+  [*] --> Configuracao
+  Configuracao --> Preparacao:adicionarLink
+  Configuracao --> s1:escolherLocalmente
+  Preparacao --> s2:confirmarImagem
+  s1 --> s2:confirmarImagem
+  s2 --> s3:direcionarFormato
+  s2 --> s4:classificarQuantidade
+  s2 --> s5:configurarOrientacao
+  s3 --> s7:gerarQuebraCabeca
+  s4 --> s7:gerarQuebraCabeca
+  s5 --> s7:gerarQuebraCabeca
+  s7 --> [*]
+  Configuracao:Selecionando Imagem
+  Preparacao:Fazendo download
+  s1:Fazendo upload
+  s2:Escolhendo dificuldade
+  s3:Selecionando corte
+  s4:Triar quantidade de peca
+  s5:Elegendo Rotacao
+  s7:Jogar
