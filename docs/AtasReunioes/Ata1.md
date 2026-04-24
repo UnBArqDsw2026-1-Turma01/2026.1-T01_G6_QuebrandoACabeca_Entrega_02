@@ -25,7 +25,7 @@
 
 **1\. Aumento do Escopo**
 
-* Decidimos aumentar o escopo do projeto para contar com uma espécia de comunidade e partidas 1x1.
+* Decidimos aumentar o escopo do projeto para contar com uma espécie de comunidade e partidas 1x1, de acordo com sugestões da professora, gostamos dessas duas funcionalidades.
 * Assim estabelecemos que definitivamente teremos usuários, autenticação, backend.
 * A comunidade é uma forma dos usuários interagirem, ao postarem publicações, sejam pedindo recomendações, divulgando imagens interessantes.
 * Teremos persistência também nos dados dos usuários incluindo imagens, que o usuário pode enviar ou salvar da comunidade.
