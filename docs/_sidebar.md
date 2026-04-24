@@ -5,12 +5,14 @@
 - **Atas de Reuniões**
   - [Ata de Reunião #1](/AtasReunioes/Ata1.md)
   - [Ata de Reunião #2](/AtasReunioes/Ata2.md)
+  - [Ata de Reunião #3](/AtasReunioes/Ata3.md)
 
 - **Discussões Assíncronas**
   <!--- [Discussão sobre Diagrama de Classes](/Discussoes/classes.md)-->
-  - [Discussão sobre Diagrama de Sequências](/Discussoes/sequencias.md)
-  - [Discussão sobre Diagrama de Casos de Uso](/Discussoes/casos-de-uso.md)
-  - 
+  - [Discussão sobre Sequências](/Discussoes/sequencias.md)
+  - [Discussão sobre Casos de Uso](/Discussoes/casos-de-uso.md)
+  - [Discussão sobre Estados](/Discussoes/estados.md)
+
 - **Desenho de Software (Modelagem)**
   - [2.1. Modelagem UML Estática](/Modelagem/2.1.ModelagemEstatica.md)
   - **2.2. Modelagem UML Dinâmica**
