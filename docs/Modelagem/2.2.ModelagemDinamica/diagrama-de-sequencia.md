@@ -61,8 +61,17 @@ Mais uma vez, foi utilizada a ferramenta *online* Miro, e as referências princi
 Foi escolhido o **diagrama de sequência** para esta etapa por se mostrar a nós, no cenário geral da Programação Orientada a Objetos, ser uma representação **ideal e poderosa** da interação dinâmica entre objetos no sistema; inclusive, conforme destacado por BARCELAR (2014?), se ressaltando como *sendo* "o diagrama mais utilizado na estapa de Projeto Orientado a Objeto". Permite-se com esse diagrama **modelar o comportamento dinâmico** de ditos objetos, **detalhar casos de uso**, **visualizar o fluxo** de processos, **validar lógica de sistemas do projeto**, **mapear interações** de componentes e **gerenciar o ciclo de vida dos objetos**.
 
 ## 4. Senso Crítico
-Falar quais conclusões conseguimos tirar desse artefato, satisfez as expectativas do porque é útil?
-etc, tem que opinar sobre o artefato.
+<!-- Falar quais conclusões conseguimos tirar desse artefato, satisfez as expectativas do porque é útil?
+etc, tem que opinar sobre o artefato. -->
+A elaboração dos diagramas revelou que a utilidade deste artefato depende diretamente da complexidade do fluxo modelado.
+
+Em fluxos com múltiplos atores, como "Entrar em Partida Online" (DS4), o diagrama foi essencial para mapear o sincronismo e a troca de mensagens, um comportamento temporal não visível no Diagrama de Classes.
+
+Modelar fluxos lineares, como "Editar dados da conta" (DS2), gerou burocracia desnecessária. O diagrama apenas descreveu chamadas óbvias (Controller -> Service -> Repository -> Banco), exigindo tempo sem agregar valor arquitetural.
+
+A tentativa de documentar todas as exceções e caminhos alternativos poluiu visualmente os diagramas, prejudicando o objetivo principal do artefato: facilitar a comunicação e o entendimento.
+
+A experiência mostrou que a modelagem dinâmica é poderosa, mas que deve ser aplicada de forma cirúrgica. Para evitar custos de manutenção desnecessários, diagramas de sequência devem ser restritos à validação de regras de negócio complexas, evitando a documentação exaustiva de operações triviais.
 
 ## 5. Rastreabilidade & Elos com Outros Artefatos
 
@@ -90,6 +99,7 @@ A tabela a seguir explicita esse rastro:
 | 23/04/2026 | Adicionando imagens dos diagramas de sequência. | Lucas, Fábio Torres, Eduardo, Caio, João Felipe |
 | 24/04/2026 | Preenchimento da seção de Rastreabilidade & Elos com Outros Artefatos. | Marcos Vínicius |
 | 24/04/2026 | Adicionando metodologia, justificativa e algumas referências. | João Felipe |
+| 24/04/2026 | Adicionando senso crítico. | Pedro Teixeira |
 
 ## 8. Referências
 
