@@ -17,9 +17,9 @@
 * Pedro
 * Yogi
  
-<img src="/assets/outros/1.jpg" alt="Print 1 - Combinação da reunião" width="250">
-<img src="/assets/outros/2.jpg" alt="Print 2 - Combinação da reunião" width="250">
-<img src="/assets/outros/3.jpg" alt="Print 3 - Combinação da reunião" width="250">
+<img src="assets/outros/1.jpg" alt="Print 1 - Combinação da reunião" width="250">
+<img src="assets/outros/2.jpg" alt="Print 2 - Combinação da reunião" width="250">
+<img src="assets/outros/3.jpg" alt="Print 3 - Combinação da reunião" width="250">
 
 ### **Tópicos Discutidos e Decisões**
 

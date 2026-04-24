@@ -42,19 +42,19 @@
 
 ### Evidências (Histórico do WhatsApp)
 
-<img src="/assets/discussao-sequencias/sequencia-1.jpg" alt="Print 1 - Status das tarefas e casos de uso" width="250">
-<img src="/assets/discussao-sequencias/sequencia-2.jpg" alt="Print 2 - Definição de pendências" width="250">
-<img src="/assets/discussao-sequencias/sequencia-3.jpg" alt="Print 3 - Responsáveis pela documentação" width="250">
-<img src="/assets/discussao-sequencias/sequencia-4.jpg" alt="Print 4 - Entrega dos diagramas de sequência" width="250">
-<img src="/assets/discussao-sequencias/sequencia-5.jpg" alt="Print 5 - Uso do Mermaid e ajustes visuais" width="250">
-<img src="/assets/discussao-sequencias/sequencia-6.jpg" alt="Print 6 - Aprovação dos diagramas e oferta de ajuda" width="250">
-<img src="/assets/discussao-sequencias/sequencia-7.jpg" alt="Print 7 - Discussão sobre o uso do Miro" width="250">
-<img src="/assets/discussao-sequencias/sequencia-8.jpg" alt="Print 8 - Dúvidas sobre centralização" width="250">
-<img src="/assets/discussao-sequencias/sequencia-9.jpg" alt="Print 9 - Referência da ferramenta Mermaid" width="250">
-<img src="/assets/discussao-sequencias/sequencia-10.jpg" alt="Print 10 - Acordo sobre padronização e uso do Miro" width="250">
-<img src="/assets/discussao-sequencias/sequencia-11.jpg" alt="Print 11 - Discussão sobre a cor de fundo dos diagramas" width="250">
-<img src="/assets/discussao-sequencias/sequencia-12.jpg" alt="Print 12 - Teste de fundo branco e sugestão de uso do Miro" width="250">
-<img src="/assets/discussao-sequencias/sequencia-13.jpg" alt="Print 13 - Uploads no GitHub e pedido de justificativas" width="250">
-<img src="/assets/discussao-sequencias/sequencia-14.jpg" alt="Print 14 - Organização das edições na página e rastreabilidade" width="250">
-<img src="/assets/discussao-sequencias/sequencia-15.jpg" alt="Print 15 - Metodologia, justificativa e referências (Parte 1)" width="250">
-<img src="/assets/discussao-sequencias/sequencia-16.jpg" alt="Print 16 - Metodologia, justificativa e referências (Parte 2)" width="250">
+<img src="assets/discussao-sequencias/sequencia-1.jpg" alt="Print 1 - Status das tarefas e casos de uso" width="250">
+<img src="assets/discussao-sequencias/sequencia-2.jpg" alt="Print 2 - Definição de pendências" width="250">
+<img src="assets/discussao-sequencias/sequencia-3.jpg" alt="Print 3 - Responsáveis pela documentação" width="250">
+<img src="assets/discussao-sequencias/sequencia-4.jpg" alt="Print 4 - Entrega dos diagramas de sequência" width="250">
+<img src="assets/discussao-sequencias/sequencia-5.jpg" alt="Print 5 - Uso do Mermaid e ajustes visuais" width="250">
+<img src="assets/discussao-sequencias/sequencia-6.jpg" alt="Print 6 - Aprovação dos diagramas e oferta de ajuda" width="250">
+<img src="assets/discussao-sequencias/sequencia-7.jpg" alt="Print 7 - Discussão sobre o uso do Miro" width="250">
+<img src="assets/discussao-sequencias/sequencia-8.jpg" alt="Print 8 - Dúvidas sobre centralização" width="250">
+<img src="assets/discussao-sequencias/sequencia-9.jpg" alt="Print 9 - Referência da ferramenta Mermaid" width="250">
+<img src="assets/discussao-sequencias/sequencia-10.jpg" alt="Print 10 - Acordo sobre padronização e uso do Miro" width="250">
+<img src="assets/discussao-sequencias/sequencia-11.jpg" alt="Print 11 - Discussão sobre a cor de fundo dos diagramas" width="250">
+<img src="assets/discussao-sequencias/sequencia-12.jpg" alt="Print 12 - Teste de fundo branco e sugestão de uso do Miro" width="250">
+<img src="assets/discussao-sequencias/sequencia-13.jpg" alt="Print 13 - Uploads no GitHub e pedido de justificativas" width="250">
+<img src="assets/discussao-sequencias/sequencia-14.jpg" alt="Print 14 - Organização das edições na página e rastreabilidade" width="250">
+<img src="assets/discussao-sequencias/sequencia-15.jpg" alt="Print 15 - Metodologia, justificativa e referências (Parte 1)" width="250">
+<img src="assets/discussao-sequencias/sequencia-16.jpg" alt="Print 16 - Metodologia, justificativa e referências (Parte 2)" width="250">
