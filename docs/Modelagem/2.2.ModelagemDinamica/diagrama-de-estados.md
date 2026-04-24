@@ -71,6 +71,7 @@ Os diagramas elaborados são diretos e cobrem adequadamente as mudanças de esta
 |:----:|------------|:-------:|
 | 24/04/2026 | Primeira versão do diagrama de estados. | Yogi |
 | 24/04/2026 | Adição de metodologia, justificativa, senso crítico, e rastreabilidade. | Yogi, Carlos, Pedro |
+| 24/04/2026 | Adição de módulos diagrama de estados. | Carlos |
 
 ## 8. Referências
 
