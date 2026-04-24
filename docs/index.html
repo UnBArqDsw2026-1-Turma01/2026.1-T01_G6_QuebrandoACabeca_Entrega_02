@@ -1,4 +1,75 @@
 <!doctype html>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+    :root {
+        --sidebar-background: white;
+        --sidebar-toggle-background: rgb(0, 0, 0);
+        --sidebar-toggle-icon-color: white;
+        --accent: #1a3a6e;
+        --gold: #b8860b;
+    }
+
+    /* Corpo e conteúdo geral */
+    body,
+    .markdown-section {
+        font-family: 'Libre Baskerville', Georgia, serif !important;
+    }
+
+    .markdown-section {
+        text-align: justify;
+    }
+
+    /* Títulos em todas as páginas */
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3,
+    .markdown-section h4 {
+        font-family: 'Playfair Display', serif !important;
+    }
+
+    /* Código e blocos de código */
+    .markdown-section code,
+    .markdown-section pre {
+        font-family: 'JetBrains Mono', monospace !important;
+    }
+
+    /* Sidebar / sumário */
+    .sidebar,
+    .sidebar-nav,
+    .sidebar-nav a {
+        font-family: 'JetBrains Mono', monospace !important;
+        font-size: 0.8rem !important;
+        letter-spacing: 0.04em;
+    }
+
+    .sidebar-nav a:hover,
+    .sidebar-nav .active {
+        color: var(--accent) !important;
+    }
+
+    /* Tabelas */
+    .markdown-section table {
+        display: table;
+        width: 100%;
+    }
+
+    /* Figuras */
+    body {
+        counter-reset: figura;
+    }
+
+    figcaption::before {
+        counter-increment: figura;
+        content: "Figura " counter(figura) ": ";
+    }
+
+    figcaption {
+        text-align: center;
+    }
+</style>
+
 <html lang="pt-br">
     <head>
         <link rel="icon" href="assets/icone.png">
@@ -17,7 +88,7 @@
         <style>
             :root {
                 --sidebar-background: white;
-                --sidebar-toggle-background: purple;
+                --sidebar-toggle-background: rgb(0, 0, 0);
                 --sidebar-toggle-icon-color: white;
             }
             .markdown-section {
@@ -44,7 +115,7 @@
         <script>
             window.$docsify = {
                 auto2top: true,
-                themeColor: "purple",
+                themeColor: "black",
                 loadSidebar: true,
                 name: "Quebrando a Cabeça",
                 repo: "https://github.com/UnBArqDsw2026-1-Turma01/2026.1-T01_G6_QuebrandoACabeca_Entrega_02",
