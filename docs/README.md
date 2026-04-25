@@ -474,7 +474,7 @@ body {
     <div class="section-label">§ 03</div>
     <h2 class="section-title">Screenshots da Segunda Entrega</h2>
     <div class="screenshots-placeholder">
-        [[slider]](assets/diagramaClasses.jpg|assets/DiagramaSequencia/DiagramaSequencia1.jpeg|assets/DiagramaSequencia/DiagramaSequencia2.jpeg|assets/DiagramaSequencia/DiagramaSequencia3.jpeg|assets/DiagramaSequencia/DiagramaSequencia4.jpeg|assets/DiagramaSequencia/DiagramaSequencia5.jpeg|assets/DiagramaSequencia/DiagramaSequencia6.jpeg|assets/diagramaCasodeUso.png)
+        [[slider]](assets/diagramaClasses.jpg|assets/DiagramaSequencia/DiagramaSequencia1.jpeg|assets/DiagramaSequencia/DiagramaSequencia2.jpeg|assets/DiagramaSequencia/DiagramaSequencia3.jpeg|assets/DiagramaSequencia/DiagramaSequencia4.jpeg|assets/DiagramaSequencia/DiagramaSequencia5.jpeg|assets/DiagramaSequencia/DiagramaSequencia6.jpeg|assets/diagramaCasodeUso.png|assets/diagrama-estados/1x1.png|assets/diagrama-estados/conquistas.png|assets/diagrama-estados/Jogo.png|assets/diagrama-estados/processaimagem.png|assets/diagrama-estados/publi.png)
     </div>
   </div>
   <!-- EXECUÇÃO -->
